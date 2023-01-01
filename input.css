@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .result-set {
+    @apply flex flex-col gap-1 md:gap-4 border-l-0 md:border-l md:border-solid md:border-gray-200 px-4 mr-auto;
+  }
+
+  .results {
+    @apply max-w-4xl rounded-lg p-4 min-h-[8rem] bg-white shadow-md absolute w-11/12 md:w-full left-1/2 -bottom-32 -translate-x-1/2 -translate-y-1/2 z-10;
+  }
+}
